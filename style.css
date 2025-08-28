@@ -75,8 +75,20 @@
     margin-top: 25px;
     display: grid;
     grid-auto-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 
-.card{
-    margin-left: 50px;
+#seta-direita{
+    margin-left: 100px;
+}
+
+#seta-esquerda{
+    
+    margin-right: 100px;
+}
+
+#bruna{
+    display: none;
 }
