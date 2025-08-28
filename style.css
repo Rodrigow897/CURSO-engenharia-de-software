@@ -60,35 +60,41 @@
     border-radius: 10px;
 }
 
-#carrossel{
+#carrossel {
     background-color: #247BA0;
     padding: 70px;
 }
 
-#titulo-carrossel{
+#titulo-carrossel {
     color: white;
     text-align: center;
     font-size: 25px;
 }
 
-#div-cards{
+#div-cards {
     margin-top: 25px;
-    display: grid;
-    grid-auto-flow: column;
-    justify-content: center;
+    display: flex;              /* flex no lugar de grid */
+    justify-content: center;    /* centraliza os cards */
     align-items: center;
     gap: 50px;
+    position: relative;         /* necessário para as setas absolutas */
 }
 
-#seta-direita{
-    margin-left: 100px;
+.seta {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 30px;
 }
 
-#seta-esquerda{
+#seta-esquerda {
+    left: -10px; 
     display: none;
-    margin-right: 100px;
 }
 
-#bruna{
-    display: none;
+#seta-direita {
+    right: -10px; 
 }
+
+#bruna{ display: none; }
