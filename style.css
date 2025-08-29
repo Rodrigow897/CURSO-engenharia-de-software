@@ -82,10 +82,15 @@
 
 .seta {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
     cursor: pointer;
     font-size: 30px;
+    cursor: pointer;
+}
+
+.seta:hover{
+    box-shadow: 2px 2px 2px #00f0ff;
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
 }
 
 #seta-esquerda {

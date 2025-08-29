@@ -6,8 +6,15 @@ var bruna = document.getElementById('bruna')
 
 function RolarParaDireita() {
     leonardo.style = "display: none"
-    bruna.style = "display:flex"
+    bruna.style = "display: flex"
     setaEsquerda.style = "display:flex"
     setaDireita.style = "display:none"
 
+}
+
+function RolarParaEsquerda() {
+    leonardo.style = "display: flex"
+    bruna.style = "display: none"
+    setaDireita.style = "display: flex"
+    setaEsquerda.style = "display: none"
 }
