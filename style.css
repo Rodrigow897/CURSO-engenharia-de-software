@@ -73,11 +73,11 @@
 
 #div-cards {
     margin-top: 25px;
-    display: flex;              /* flex no lugar de grid */
-    justify-content: center;    /* centraliza os cards */
+    display: flex;
+    justify-content: center;
     align-items: center;
     gap: 50px;
-    position: relative;         /* necessário para as setas absolutas */
+    position: relative;
 }
 
 .seta {
@@ -103,3 +103,14 @@
 }
 
 #bruna{ display: none; }
+
+#formulario{
+    text-align: center;
+
+}
+
+#titulo-formulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
